@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400,900|Exo+2:200,400|Righteous|Monoton" rel="stylesheet">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="box overflow-hidden" id="start">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <a class="navbar-brand text-uppercase text-purple" href="index.html">Fun creator</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-gamepad fa-2x"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Про нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Галерея</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="order.html">Замовлення</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="feedback.html">Відгуки</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Контакти</a>
+                        </li>
+
+                    </ul>
+                    <form class="form-inline ml-lg-5 my-2 my-lg-0">
+                        <button id="login" class="btn btn-outline-light" type="button" data-toggle="modal" data-target="#myModal">Залогінитись</button>
+                    </form>
+                </div>
+            </nav>
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h4 class="modal-title">Вхід</h4>
+                            <button type="button" class="close" data-dismiss="modal"><i class="fas fa-times"></i></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group row">
+                                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                    </div>
+                                </div>
+                                </form>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger mr-auto" data-dismiss="modal">Закрити</button>
+                            <button type="submit" class="btn btn-success ml-auto">Увійти</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="services" class="bg-light pt-5">
+                <div class="container py-5">
+                    <h1 class="text-center font-weight-light">Послуги</h1>
+                    <div class="row">
+                        <div class="col-6 col-lg-3 p-3">
+                            <button class="btn btn-outline-light my-3 mx-auto" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="multiCollapseExample2">Фільми та відеоігри</button>
+                            <div class="collapse" id="collapse1">
+                                <div class="card card-body">
+                                    <ul>
+                                        <li>Домашній кінотеатр з можливістю перегляду будь-яких фільмів <br>А також:</li>
+                                        <li>Gran Turismo Sport</li>
+                                        <li>EA SPORTS FIFA 18</li>
+                                        <li>Call of Duty: WWII</li>
+                                        <li>Destiny 2</li>
+                                        <li>Battlefield 1</li>
+                                        <li>Mortal Kombat</li>
+                                        <li>Та багато інших</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3 p-3">
+                            <button class="btn btn-outline-light my-3 mr-auto" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="multiCollapseExample2">Настільні ігри</button>
+                            <div class="collapse" id="collapse2">
+                                <div class="card card-body">
+                                    <ul>
+                                        <li>Шахи</li>
+                                        <li>Шашки</li>
+                                        <li>Карти</li>
+                                        <li>Монополія</li>
+                                        <li>Уно</li>
+                                        <li>Крокодил</li>
+                                        <li>Хто я?</li>
+                                        <li>Манчкін</li>
+                                        <li>Джанга</li>
+                                        <li>Вірю - не вірю</li>
+                                        <li>Усілякі головоломки</li>
+                                        <li>Та багато інших</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3 p-3">
+                            <button class="btn btn-outline-light my-3 mx-auto" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="multiCollapseExample2">Спортивні ігри</button>
+                            <div class="collapse" id="collapse3">
+                                <div class="card card-body">
+                                    <ul>
+                                        <li>Більярд</li>
+                                        <li>Настільний теніс</li>
+                                        <li>Дартс</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3 p-3">
+                            <button class="btn btn-outline-light my-3 mx-auto" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="multiCollapseExample2">Їжа та напої</button>
+                            <div class="collapse" id="collapse4">
+                                <div class="card card-body">
+                                    <ul>
+                                        <li>Попкорн</li>
+                                        <li>Напої</li>
+                                        <li>Бургери</li>
+                                        <li>Піца</li>
+                                        <li>Смаколики</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="order" class="bg-light ">
+                <div class="container px-5 py-3">
+                    <h1 class="text-center mb-5 font-weight-light">Замовлення</h1>
+                    <form class="p-md-5">
+                        <div class="form-group row">
+                            <label for="inputEmail" class="col-sm-2 col-form-label">Введіть e-mail</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputName" class="col-sm-2 col-form-label">Введіть Ваше Ім'я</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputName" placeholder="ПІБ">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputPhone" class="col-sm-2 col-form-label">Введіть Ваш номер телефону</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputPhone" placeholder="+38 000 000 00 00" value="+38 0">
+                            </div>
+                        </div>
+                        <fieldset class="form-group">
+                            <div class="row">
+                                <legend class="col-form-label col-sm-2 pt-0">Яку кімнату ви бажаєте?</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="room" id="room1" value="option1" checked>
+                                        <label class="form-check-label" for="room1">
+                                            Кімната для фільмів та ігор
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="room" id="room2" value="option2">
+                                        <label class="form-check-label" for="room2">
+                                            Кімната для більярду
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="room" id="room3" value="option3">
+                                        <label class="form-check-label" for="room3">
+                                            Кімната для тенісу
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div class="form-group row">
+                            <div class="col-sm-2">Додаткові послуги</div>
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="addition1">
+                                    <label class="form-check-label" for="addition1">
+                                        Настільні ігри
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="addition2">
+                                    <label class="form-check-label" for="addition2">
+                                        Головоломки
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="addition3">
+                                    <label class="form-check-label" for="addition3">
+                                        <input type="text" class="form-control" id="inputAddition" placeholder="Особливі побажання">
+                                    </label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputDate" class="col-sm-2 col-form-label">Оберіть дату</label>
+                            <div class="col-sm-10">
+                                <input type="date" class="form-control" id="inputDate" name="userDate">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputTimeStart" class="col-sm-2 col-form-label">Оберіть час</label>
+                            <div class="col-sm-10 input-group">
+                                <input type="se" class="form-control" id="inputTimeStart" name="userTimeStart">
+                                <input type="time" class="form-control" id="inputTimeEnd" name="userTimeEnd">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputNumber" class="col-sm-2 col-form-label">Кількість людей</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" id="inputNumber" name="count" min="1" max="10">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-4 my-2">
+                                <button type="submit" class="btn btn-dark bg-purple w-100">Обчислити вартість</button>
+                            </div>
+                            <div class="col-sm-4 my-2">
+                                <button type="submit" class="btn btn-dark bg-purple w-100">Забронювати кімнату</button>
+                            </div>
+                            <div class="col-sm-4 my-2">
+                                <button type="submit" class="btn btn-dark bg-purple w-100">Замовити кімнату</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <footer id="contacts" class="bg-dark px-lg-5">
+                <div class="container-fluid px-lg-5">
+                    <div class="row align-items-stretch justify-content-around py-5">
+                        <div class="col-sm-6 col-md-3 mb-5 my-md-1 text-center">
+                            <h5 class="text-purple mb-3">Меню</h5>
+                            <nav class="nav flex-column">
+                                <a class="nav-link active" href="index.html">Про нас</a>
+                                <a class="nav-link" href="gallery.html">Галерея</a>
+                                <a class="nav-link" href="order.html">Замовлення</a>
+                                <a class="nav-link" href="feedback.html">Відгуки</a>
+                                <a class="nav-link" href="contact.html">Контакти</a>
+                            </nav>
+                        </div>
+                        <div class="col-sm-6 col-md-3 mb-5 my-md-1 text-center">
+                            <h5 class="text-purple mb-3">Контакти</h5>
+                            <ul class="footer-contacts p-0">
+                                <li>
+                                    <i class="fa fa-map-marker"></i> Lviv, Some Adress, 23
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone"></i> +38 (065) 784 52 64
+                                </li>
+                                <li>
+                                    <i class="fas fa-envelope"></i> <a class="text-light" href="mailto:admin@mysite .com">admin@mysite.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3 mb-5 my-md-1 text-center">
+                            <h5 class="text-purple mb-3">Робочий час</h5>
+                            <div class="mb-5">
+                                <div class="">Понеділок - Четвер</div>
+                                <div class="">10:00 AM - 11:00 PM</div>
+                            </div>
+                            <div class="mb-5">
+                                <div class="">П'ятниця - Неділя</div>
+                                <div class="">12:00 AM - 03:00 AM</div>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-6 col-md-3 mb-5 my-md-1 text-center share ">
+                            <h5 class="text-purple mb-3">Поділитись</h5>
+                            <nav class="nav flex-column">
+                                <a class="nav-link active" href="https://www.facebook.com" target="blank"><i class="fab fa-facebook fa-3x"></i></a>
+                                <a class="nav-link" href="https://twitter.com" target="blank"><i class="fab fa-twitter fa-3x"></i></a>
+                                <a class="nav-link" href="https://www.instagram.com" target="blank"><i class="fab fa-instagram fa-3x"></i></a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="w-25 mx-auto mb-3 text-center">
+                        <a class="" href="#start">Вгору</a>
+                    </div>
+                    <div class="row copy p-5">
+                        <p class="">&copy; Tania Klueva</p>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+
+    </body>
+</html>
